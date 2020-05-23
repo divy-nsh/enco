@@ -36,6 +36,7 @@ do
 		echo "                 ▀   ";
 		echo ""
 		echo ""
+		chmod +x rsa.sh
 		./rsa.sh	
 		cd ..
 	elif [ $choice == 2 ]
